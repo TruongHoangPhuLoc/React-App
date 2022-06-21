@@ -1,0 +1,7 @@
+to start application on dev environment: npm start
+to build application: npm run build
+install static server: npm install -g serve
+run: serve -s build
+run: serve -s build -p port number
+install json-server: sudo npm install -g json-server
+edit: add "server":"json-server --watch db.json --port XXXX" under "scripts" inside package.json file to simulate back-end server
